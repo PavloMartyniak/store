@@ -34,7 +34,7 @@ const Contact = () => {
   console.log("formData", formData);
   return (
     <div className="flex justify-between items-center gap-10">
-      <div className="w-9/12">
+      <div className="w-4/6">
         <div className="flex flex-col gap-y-4 items-start">
           <h1 className="font-bold text-6xl">Contact Us</h1>
 
@@ -65,7 +65,7 @@ const Contact = () => {
         </div>
       </div>
 
-      <div className="w-3/12 min-h-96 rounded-3xl shadow-2xl p-8">
+      <div className="w-2/6 min-h-96 rounded-3xl shadow-2xl p-8">
         <h1 className="font-bold text-4xl">Get in Touch</h1>
         <p>You can reach us anytime</p>
 

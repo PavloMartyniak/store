@@ -7,18 +7,18 @@ export const navigation_pages = [
     title: "About Us",
     route: "/about-us",
     children_pages: [
-      { title: "Company Profile", route: "/company-profile" },
-      { title: "History", route: "/history" },
-      { title: "Awards", route: "/awards" },
+      { title: "Company Profile", route: "/about-us/company-profile" },
+      { title: "History", route: "/about-us/history" },
+      { title: "Awards", route: "/about-us/awards" },
     ],
   },
   {
     title: "Products",
     route: "/products",
     children_pages: [
-      { title: "Accessories", route: "/accessories" },
-      { title: "Tires & Rims", route: "tires-and-rims" },
-      { title: "Car Batteries", route: "car-batteries" },
+      { title: "Accessories", route: "/products/accessories" },
+      { title: "Tires & Rims", route: "/products/tires-and-rims" },
+      { title: "Car Batteries", route: "/products/car-batteries" },
     ],
   },
   {
